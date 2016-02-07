@@ -5,7 +5,7 @@ echo "Instalacion de Ruby 2.0.0-p598"
 source ~/.rvm/scripts/rvm
 rvm install ruby 2.0.0-p598
 rvm use 2.0.0-p598 --default
-sudo apt-get install bundler
+sudo apt-get install bundler -y
 echo "Instalacion de Git"
 sudo apt-get update
 sudo apt-get install git -y
